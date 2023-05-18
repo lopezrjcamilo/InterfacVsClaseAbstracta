@@ -8,4 +8,9 @@ public class Perro extends Mamifero{
     public void hacerSonido() {
         System.out.println(getNombre() + " hace: ¡Guau guau!");
     }
+
+    @Override
+    public void moverCola() {
+        super.moverCola();
+    }
 }
